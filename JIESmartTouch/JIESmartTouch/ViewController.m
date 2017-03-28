@@ -20,6 +20,11 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    [self addUI];
+}
+
+//------------------------------------------
+- (void)addUI{
     
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     [btn setTitle:@"push" forState:UIControlStateNormal];

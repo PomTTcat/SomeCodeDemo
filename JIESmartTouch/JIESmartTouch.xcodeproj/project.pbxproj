@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5A58D71E7FFA54004B3056 /* NSObject+runTime.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5A58D61E7FFA54004B3056 /* NSObject+runTime.m */; };
+		AD5A58DA1E7FFA5F004B3056 /* UIFont+sizeAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5A58D91E7FFA5F004B3056 /* UIFont+sizeAdjust.m */; };
+		AD5A58DE1E7FFBF9004B3056 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5A58DC1E7FFBF9004B3056 /* TableViewController.m */; };
 		AD5F05861E7B8E9500D70713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5F05851E7B8E9500D70713 /* main.m */; };
 		AD5F05911E7B8E9500D70713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5F05901E7B8E9500D70713 /* Assets.xcassets */; };
 		AD5F05941E7B8E9500D70713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5F05921E7B8E9500D70713 /* LaunchScreen.storyboard */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD5A58D51E7FFA54004B3056 /* NSObject+runTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+runTime.h"; sourceTree = "<group>"; };
+		AD5A58D61E7FFA54004B3056 /* NSObject+runTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runTime.m"; sourceTree = "<group>"; };
+		AD5A58D81E7FFA5F004B3056 /* UIFont+sizeAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+sizeAdjust.h"; sourceTree = "<group>"; };
+		AD5A58D91E7FFA5F004B3056 /* UIFont+sizeAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+sizeAdjust.m"; sourceTree = "<group>"; };
+		AD5A58DB1E7FFBF9004B3056 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		AD5A58DC1E7FFBF9004B3056 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		AD5F05811E7B8E9500D70713 /* JIESmartTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JIESmartTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5F05851E7B8E9500D70713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD5F05901E7B8E9500D70713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,8 +135,14 @@
 				AD5F05BA1E7B8F0300D70713 /* JIESettingTouch.m */,
 				AD5F05BB1E7B8F0300D70713 /* SecondViewController.h */,
 				AD5F05BC1E7B8F0300D70713 /* SecondViewController.m */,
+				AD5A58DB1E7FFBF9004B3056 /* TableViewController.h */,
+				AD5A58DC1E7FFBF9004B3056 /* TableViewController.m */,
 				AD5F05BD1E7B8F0300D70713 /* ViewController.h */,
 				AD5F05BE1E7B8F0300D70713 /* ViewController.m */,
+				AD5A58D81E7FFA5F004B3056 /* UIFont+sizeAdjust.h */,
+				AD5A58D91E7FFA5F004B3056 /* UIFont+sizeAdjust.m */,
+				AD5A58D51E7FFA54004B3056 /* NSObject+runTime.h */,
+				AD5A58D61E7FFA54004B3056 /* NSObject+runTime.m */,
 				AD5F05C81E7B8F8B00D70713 /* Localizable.strings */,
 				AD5F05901E7B8E9500D70713 /* Assets.xcassets */,
 				AD5F05921E7B8E9500D70713 /* LaunchScreen.storyboard */,
@@ -306,11 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5A58D71E7FFA54004B3056 /* NSObject+runTime.m in Sources */,
 				AD5F05C11E7B8F0300D70713 /* SecondViewController.m in Sources */,
 				AD5F05BF1E7B8F0300D70713 /* AppDelegate.m in Sources */,
+				AD5A58DA1E7FFA5F004B3056 /* UIFont+sizeAdjust.m in Sources */,
 				AD5F05C01E7B8F0300D70713 /* JIESettingTouch.m in Sources */,
 				AD5F05861E7B8E9500D70713 /* main.m in Sources */,
 				AD5F05C21E7B8F0300D70713 /* ViewController.m in Sources */,
+				AD5A58DE1E7FFBF9004B3056 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +582,7 @@
 				AD5F05B01E7B8E9500D70713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD5F05B11E7B8E9500D70713 /* Build configuration list for PBXNativeTarget "JIESmartTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +591,7 @@
 				AD5F05B31E7B8E9500D70713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD5F05B41E7B8E9500D70713 /* Build configuration list for PBXNativeTarget "JIESmartTouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +600,7 @@
 				AD5F05B61E7B8E9500D70713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
