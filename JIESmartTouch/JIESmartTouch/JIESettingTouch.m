@@ -202,15 +202,15 @@ static CGFloat animatedTime = 0.5;
 
 //---------------
 -(NSString *)LBdynamic:(NSString *)key{
-    
     if (!_language) {
+        
         NSString *localName = [[NSLocale currentLocale]localeIdentifier];
         if ([localName hasPrefix:@"zh-Hans"] || [localName isEqualToString:@"zh_CN"]) {
             _language = @"zh-Hans";
         } else if ([localName hasPrefix:@"zh-Hant"]) {
             _language = @"zh-Hant";
         } else {
-            _language = [localName componentsSeparatedByString:@"-"].firstObject;
+            _language = [localName componentsSeparatedByString:@"_"].firstObject;
         }
     }
     
